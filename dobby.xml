@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Dobby</Name>
+  <Repository>zggis/dobby</Repository>
+  <Registry>https://hub.docker.com/repository/docker/zggis/dobby</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://github.com/Zggis/dobby</Project>
+  <Overview>Dobby will scan a media directory and look for MKV/MP4 Dolby Vision files along side MKV HDR video files for the same TV Show episode. The application will merge the files to create BL+RPU MKV files compatible with HDR and Dolby Vision. This allows you to enhance your media library by adding Dolby Vision at low cost of disk space and without the need to manage multiple file versions.<Overview/>
+  <Category>Tools: MediaApp:Video Status:Beta</Category>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/Zggis/dobby/master/favicon.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1667517969</DateInstalled>
+  <DonateText>For testing equipment<DonateText/>
+  <DonateImg>https://cdn.buymeacoffee.com/buttons/default-orange.png</DonateImg>
+  <DonateLink>https://www.buymeacoffee.com/zggis<DonateLink/>
+  <ExtraSearchTerms>dolby vision hdr hdr10 dovi dovi_tool mkv merge</ExtraSearchTerms>
+  <Requires/>
+  <Changes>
+    ## 2022.11.03
+ - Initial Release
+  </Changes>
+</Container>
