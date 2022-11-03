@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support/>
+  <Support>https://forums.unraid.net/topic/130498-support-zggis-dobby<Support/>
   <Project>https://github.com/Zggis/dobby</Project>
   <Overview>Dobby will scan a media directory and look for MKV/MP4 Dolby Vision files along side MKV HDR video files for the same TV Show episode. The application will merge the files to create BL+RPU MKV files compatible with HDR and Dolby Vision. This allows you to enhance your media library by adding Dolby Vision at low cost of disk space and without the need to manage multiple file versions.<Overview/>
   <Category>Tools: MediaApp:Video Status:Beta</Category>
