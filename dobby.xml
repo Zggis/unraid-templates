@@ -24,7 +24,10 @@
   <ExtraSearchTerms>dolby vision hdr hdr10 dovi dovi_tool mkv merge</ExtraSearchTerms>
   <Requires/>
   <Changes>
-    ## 2022.11.03
+## v1.0.1
+ - Fixed permission issue with dovi_tool
+
+## v1.0.0
  - Initial Release
   </Changes>
 </Container>
