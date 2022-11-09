@@ -20,7 +20,7 @@
   <DateInstalled>1667517969</DateInstalled>
   <DonateText>For testing equipment<DonateText/>
   <DonateImg>https://cdn.buymeacoffee.com/buttons/default-orange.png</DonateImg>
-  <DonateLink>https://www.buymeacoffee.com/zggis<DonateLink/>
+  <DonateLink>https://www.buymeacoffee.com/zggis</DonateLink>
   <ExtraSearchTerms>dolby vision hdr hdr10 dovi dovi_tool mkv merge</ExtraSearchTerms>
   <Requires/>
   <Config Name="WORKSPACE" Target="/data/media" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false"></Config>
