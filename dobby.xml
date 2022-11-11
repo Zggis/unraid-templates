@@ -28,18 +28,18 @@
   <Config Name="Key 2" Target="PUID" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">99</Config>
   <Config Name="Key 3" Target="PGID" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">100</Config>
   <Changes>
-## 20221110 v1.0.5
+### 2022.11.10 v1.0.5
  - Fixed exception when it finds non-HDR content.
-## 20221110 v1.0.4
+### 2022.11.10 v1.0.4
  - Fixed exception when it finds non-HDR content.
-## v1.0.3
+### v1.0.3
  - Improved matching to allow for movie support
  - Added version print out to logs
-## v1.0.2
+### v1.0.2
  - Added configurable PUID/PGID/UMASK
-## v1.0.1
+### v1.0.1
  - Fixed permission issue with dovi_tool
-## v1.0.0
+### v1.0.0
  - Initial Release
   </Changes>
 </Container>
