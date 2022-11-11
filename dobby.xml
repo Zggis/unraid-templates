@@ -28,6 +28,8 @@
   <Config Name="Key 2" Target="PUID" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">99</Config>
   <Config Name="Key 3" Target="PGID" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">100</Config>
   <Changes>
+## v1.0.4 11/10/22
+ - Fixed exception when it finds non-HDR content.
 ## v1.0.3
  - Improved matching to allow for movie support
  - Added version print out to logs
