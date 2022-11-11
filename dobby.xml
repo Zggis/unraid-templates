@@ -23,7 +23,7 @@
   <DonateLink>https://www.buymeacoffee.com/zggis</DonateLink>
   <ExtraSearchTerms>dolby vision hdr hdr10 dovi dovi_tool mkv merge</ExtraSearchTerms>
   <Requires/>
-  <Config Name="WORKSPACE" Target="/data/media" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false"></Config>
+  <Config Name="WORKSPACE" Target="/data/media" Default="" Mode="rw" Description="Start with an empty directory. Do not select your entire media directory, it does not search recursively" Type="Path" Display="always" Required="true" Mask="false"></Config>
   <Config Name="Key 1" Target="UMASK" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">0000</Config>
   <Config Name="Key 2" Target="PUID" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">99</Config>
   <Config Name="Key 3" Target="PGID" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">100</Config>
