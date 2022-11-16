@@ -28,10 +28,13 @@
   <Config Name="Key 2" Target="PUID" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">99</Config>
   <Config Name="Key 3" Target="PGID" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">100</Config>
   <Changes>
+### 2022.11.16 v1.0.6
+ - Added support to disable active area validation through configuration
+ - Added support to set logging level through configuration
 ### 2022.11.10 v1.0.5
- - Fixed exception when it finds non-HDR content.
+ - Fixed exception when it finds non-HDR content
 ### 2022.11.10 v1.0.4
- - Fixed exception when it finds non-HDR content.
+ - Fixed exception when it finds non-HDR content
 ### v1.0.3
  - Improved matching to allow for movie support
  - Added version print out to logs
