@@ -28,6 +28,8 @@
   <Config Name="Key 2" Target="PUID" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">99</Config>
   <Config Name="Key 3" Target="PGID" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">100</Config>
   <Changes>
+### 2022.11.17 v1.0.7
+ - Fixed bug with active area validation
 ### 2022.11.16 v1.0.6
  - Added support to disable active area validation through configuration
  - Added support to set logging level through configuration
