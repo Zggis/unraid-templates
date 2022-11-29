@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Howler</Name>
+  <Repository>zggis/howler</Repository>
+  <Registry>https://hub.docker.com/repository/docker/zggis/howler</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://forums.unraid.net/topic/131628-support-zggis-howler/</Support>
+  <Project>https://github.com/Zggis/howler</Project>
+  <Overview>Howler is a log file monitoring application that allows you to setup notifications for specific events in log files. Currently Discord and Gotify are supported notification platforms. Unlike other log analysis tools, Howler is simple and easy to configure.</Overview>
+  <Category>Tools: Other: Status:Beta</Category>
+  <WebUI>http://[IP]:[PORT:8080]</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/Zggis/howler/master/favicon.webp</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1669691783</DateInstalled>
+  <DonateText>For testing equipment</DonateText>
+  <DonateImg>https://cdn.buymeacoffee.com/buttons/default-orange.png</DonateImg>
+  <DonateLink>https://www.buymeacoffee.com/zggis</DonateLink>
+  <ExtraSearchTerms>log logging alert notification monitoring monitor splunk grafana loki</ExtraSearchTerms>
+  <Requires/>
+  <Config Name="Host Port 1" Target="8080" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">8567</Config>
+  <Config Name="DATASOURCE1" Target="/app1/logs" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false"></Config>
+  <Config Name="AppData Config Path" Target="/config" Default="" Mode="rw" Description="" Type="Path" Display="advanced-hide" Required="true" Mask="false">/mnt/user/appdata/howler</Config>
+  <Changes>
+### 2022.11.28 v1.0.0
+ - Initial Release
+  </Changes>
+</Container>
