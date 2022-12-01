@@ -28,6 +28,9 @@
   <Config Name="Key 2" Target="PUID" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">99</Config>
   <Config Name="Key 3" Target="PGID" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">100</Config>
   <Changes>
+### 2022.12.01 v1.0.8
+ - Cleaned up docker image
+ - Made show name matching case insensitive
 ### 2022.11.17 v1.0.7
  - Fixed bug with active area validation
 ### 2022.11.16 v1.0.6
