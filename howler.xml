@@ -27,6 +27,9 @@
   <Config Name="DATASOURCE1" Target="/app1/logs" Default="" Mode="rw" Description="Map this to the location of the log files you would like to monitor. You can add as many PATH's as you need for additional directories." Type="Path" Display="always" Required="true" Mask="false"></Config>
   <Config Name="AppData Config Path" Target="/config" Default="" Mode="rw" Description="" Type="Path" Display="advanced-hide" Required="true" Mask="false">/mnt/user/appdata/howler</Config>
   <Changes>
+### 2022.12.01 v1.0.2
+ - Added username field for discord alerts
+ - Displayed monitored file types on data sources table
 ### 2022.11.30 v1.0.1
  - Fixed bug with Discord alerts
  - Changed Docker JDK to amazoncorretto
