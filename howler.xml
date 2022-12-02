@@ -10,7 +10,7 @@
   <Support>https://forums.unraid.net/topic/131628-support-zggis-howler/</Support>
   <Project>https://github.com/Zggis/howler</Project>
   <Overview>Howler is a log file monitoring application that allows you to setup notifications for specific events in log files. Currently Discord and Gotify are supported notification platforms. Unlike other log analysis tools, Howler is simple and easy to configure.</Overview>
-  <Category>Tools: Other: Status:Beta</Category>
+  <Category>Tools: Other: </Category>
   <WebUI>http://[IP]:[PORT:8080]</WebUI>
   <TemplateURL/>
   <Icon>https://raw.githubusercontent.com/Zggis/howler/master/favicon.png</Icon>
