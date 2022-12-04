@@ -27,6 +27,8 @@
   <Config Name="DATASOURCE1" Target="/app1/logs" Default="" Mode="rw" Description="Map this to the location of the log files you would like to monitor. You can add as many PATH's as you need for additional directories." Type="Path" Display="always" Required="true" Mask="false"></Config>
   <Config Name="AppData Config Path" Target="/config" Default="" Mode="rw" Description="" Type="Path" Display="advanced-hide" Required="true" Mask="false">/mnt/user/appdata/howler</Config>
   <Changes>
+### 2022.12.04 v1.0.4
+ - Fixed bug with Slack alerts triggering for every event
 ### 2022.12.03 v1.0.3
  - Added Slack alert type
  - Added logo and version to console
