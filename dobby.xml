@@ -28,6 +28,8 @@
   <Config Name="Key 2" Target="PUID" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">99</Config>
   <Config Name="Key 3" Target="PGID" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">100</Config>
   <Changes>
+### 2023.01.08 v1.0.9
+ - Fixed bug in result validation
 ### 2022.12.01 v1.0.8
  - Cleaned up docker image
  - Made show name matching case insensitive
