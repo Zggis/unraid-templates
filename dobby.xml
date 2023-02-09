@@ -29,6 +29,11 @@
   <Config Name="Key 3" Target="PGID" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">100</Config>
   <Config Name="AAVALIDATE" Target="AAVALIDATE" Default="true" Mode="" Description="Enables or disables the active area validation step. If your merges are failing when you know the files match try setting this to false." Type="Variable" Display="always" Required="false" Mask="false">true</Config>
   <Changes>
+### 2023.02.09 v2.0.0
+ - Updated DOVI version
+ - Updated JDK version
+ - Updated Spring version
+ - Updated ffmpeg base image version
 ### 2023.01.08 v1.0.9
  - Fixed bug in result validation
 ### 2022.12.01 v1.0.8
