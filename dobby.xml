@@ -28,7 +28,7 @@
   <Config Name="Key 2" Target="PUID" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">99</Config>
   <Config Name="Key 3" Target="PGID" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">100</Config>
   <Config Name="AAVALIDATE" Target="AAVALIDATE" Default="true" Mode="" Description="Enables or disables the active area validation step. If your merges are failing when you know the files match try setting this to false." Type="Variable" Display="always" Required="false" Mask="false">true</Config>
-  <Config Name="ACCEPTBLRPUINPUT" Target="ACCEPTBLRPUINPUT" Default="false" Mode="" Description="Set to true to accept input files that already have DV and HDR." Type="Variable" Display="always" Required="false" Mask="false">true</Config>
+  <Config Name="ACCEPTBLRPUINPUT" Target="ACCEPTBLRPUINPUT" Default="false" Mode="" Description="Set to true to accept input files that already have DV and HDR." Type="Variable" Display="always" Required="false" Mask="false">false</Config>
   <Changes>
 ### 2023.02.13 v2.0.1
  - Added ability to accept BLRPU files through configuration
