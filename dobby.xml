@@ -30,6 +30,8 @@
   <Config Name="AAVALIDATE" Target="AAVALIDATE" Default="true" Mode="" Description="Enables or disables the active area validation step. If your merges are failing when you know the files match try setting this to false." Type="Variable" Display="always" Required="false" Mask="false">true</Config>
   <Config Name="ACCEPTBLRPUINPUT" Target="ACCEPTBLRPUINPUT" Default="false" Mode="" Description="Set to true to accept input files that already have DV and HDR." Type="Variable" Display="always" Required="false" Mask="false">false</Config>
   <Changes>
+### 2023.02.15 v2.0.2
+ - Fixed bug with result validation
 ### 2023.02.13 v2.0.1
  - Added ability to accept BLRPU files through configuration
 ### 2023.02.09 v2.0.0
