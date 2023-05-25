@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Plex-TVTime</Name>
+  <Repository>zggis/plex-tvtime</Repository>
+  <Registry>https://hub.docker.com/repository/docker/zggis/plex-tvtime</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://forums.unraid.net/topic/139653-support-zggis-plex-tvtime/</Support>
+  <Project>https://github.com/Zggis/plex-tvtime</Project>
+  <Overview>Plex-TVTime is a Plex webhook handler that automatically updates your TVTime watch history. TV episodes are automatically marked as watched once you complete them on Plex.</Overview>
+  <Category>Tools: Other: MediaServer:Video MediaServer:Other Status:Stable</Category>
+  <WebUI>http://[IP]:[PORT:8080]</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/Zggis/plex-tvtime/master/src/main/resources/static/favicon.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1684761520</DateInstalled>
+  <DonateText>For testing equipment</DonateText>
+  <DonateImg>https://cdn.buymeacoffee.com/buttons/default-orange.png</DonateImg>
+  <DonateLink>https://www.buymeacoffee.com/zggis</DonateLink>
+  <ExtraSearchTerms>plex tvtime webhook</ExtraSearchTerms>
+  <Requires/>
+  <Config Name="TV Time Username" Target="TVTIME_USER" Default="" Mode="" Description="tvtime.com username" Type="Variable" Display="always" Required="true" Mask="false"></Config>
+  <Config Name="TV Time Password" Target="TVTIME_PASSWORD" Default="" Mode="" Description="tvtime.com password" Type="Variable" Display="always" Required="true" Mask="true"></Config>
+  <Config Name="Plex Users" Target="PLEX_USERS" Default="" Mode="" Description="Single Plex user or comma separated list of Plex users to send events for" Type="Variable" Display="always" Required="true" Mask="false"></Config>
+  <Config Name="Host Port 1" Target="8080" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">3365</Config>
+  <Config Name="Excluded TV Shows" Target="PLEX_SHOWS_EXCLUDE" Default="" Mode="" Description="A comma separated list of TV show titles that will not be sent to TVTime. TVShow title should be identicle to how it appears in your Plex library. If the title includes a comma in it replace it with %2C to avoid conflicting with the comma delimeters in the list" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="Included TV Shows" Target="PLEX_SHOWS_INCLUDE" Default="" Mode="" Description="Overridden and ignored if PLEX_SHOWS_EXCLUDE is set, otherwise only shows that appear in this list will be sent to TVTime" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="Logging Level" Target="LOGGING_LEVEL" Default="INFO" Mode="" Description="Set to TRACE or DEBUG for additional logging" Type="Variable" Display="advanced" Required="false" Mask="false">INFO</Config>
+</Container>
