@@ -30,6 +30,8 @@
   <Config Name="AAVALIDATE" Target="AAVALIDATE" Default="true" Mode="" Description="Enables or disables the active area validation step. If your merges are failing when you know the files match try setting this to false." Type="Variable" Display="always" Required="false" Mask="false">true</Config>
   <Config Name="ACCEPTBLRPUINPUT" Target="ACCEPTBLRPUINPUT" Default="false" Mode="" Description="Set to true to accept input files that already have DV and HDR." Type="Variable" Display="always" Required="false" Mask="false">false</Config>
   <Changes>
+### 2024.01.01 v2.0.4
+ - Updated DOVI version to 2.1.0
 ### 2023.02.15 v2.0.2
  - Fixed bug with result validation
 ### 2023.02.13 v2.0.1
